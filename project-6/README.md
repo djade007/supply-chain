@@ -25,20 +25,20 @@ contract Base is AccessControl
 contract Core is Base
 ```
 #### AccessControl - Collection of Contracts: 
-These contracts manage the various addresses and constraints for operations that can be executed only by specific roles.
+These contracts manage the various addresses and constraints for the operations that can be executed only by specific roles.
 
 There are 4 actors in a coffee supply chain:
 
 - Farmer: The Farmer can harvest coffee beans, process coffee beans, pack coffee palettes, add coffee palettes, ship coffee palettes, and track authenticity.
 - Distributor: The Distributor can buy coffee palettes and track authenticity.
 - Retailer: The Retailer can receive coffee palettes and track authenticity.
-- Consumer: The consumer can buy coffee palettes and track authenticity.
+- Consumer: The Consumer can buy coffee palettes and track authenticity.
 
 #### Base - SupplyChain.sol: 
-Tis defines the most fundamental code shared throughout the core functionality. This includes the main data storage, constants and data types, plus internal functions for managing these items.
+This is the most fundamental code shared throughout the core functionality. Which includes the main data storage, constants data types and internal functions for managing these items.
 
 #### Core - Ownable.sol: 
-It is the contract that controls ownership and transfer of ownership.
+The contract that controls ownership and transfer of ownership.
 
 ### Steps
 
